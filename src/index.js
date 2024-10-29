@@ -1,4 +1,3 @@
 // import module/ function
-const { niceLogger } = require("./niceLogger.js");
+const { niceLogger, messageRepeater } = require("./niceLogger.js");
 
-niceLogger

@@ -7,9 +7,16 @@ function sampleFunction() {
     console.log("This is a sample function.")
 }
 
-// Export fn
+function messageRepeater(messageToRepeat) {
+    // message repeater functionally
+    // stmts
+}
+
+
+// Export modules
 module.exports = {
     // Name of the function, if multiple functions separate by comma
     niceLogger,
-    sampleFunction
+    sampleFunction,
+    messageRepeater
 }
