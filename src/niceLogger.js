@@ -3,8 +3,13 @@ function niceLogger() {
     return "Hello World.";
 }
 
+function sampleFunction() {
+    console.log("This is a sample function.")
+}
+
 // Export fn
 module.exports = {
-    // Name of the function, if multiple separate by comma
-    niceLogger
+    // Name of the function, if multiple functions separate by comma
+    niceLogger,
+    sampleFunction
 }

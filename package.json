@@ -4,7 +4,8 @@
   "description": "# Learning Testing with JEST (JS Testing Framework) # TDD Concepts # Building a basic terminal app with TDD",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
