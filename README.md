@@ -7,3 +7,4 @@
 ### Terminal app idea:
 - Log a message
   - a message that repeats itself.
+
