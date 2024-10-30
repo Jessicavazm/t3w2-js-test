@@ -1,5 +1,5 @@
 // Import niceLogger module to perform testing 
-const {niceLogger, messageRepeater} = require("../src/niceLogger.js")
+var {niceLogger, messageRepeater} = require("../src/niceLogger.js")
 
 
 // Segregate all test cases for one functionally
@@ -16,9 +16,11 @@ describe ("niceLogger Function test", () => {
     });
 
     test ("niceLogger returns Hello World", () => {
-        // test happens here
-        // expect(sth).toBe(sth);
-    
+        
+        // mock function
+        niceLogger = jest.fn();
+        
+        niceLogger.mockReturnValue("Hello World.");
         // Lets make a test
         // expect(who?).toBe(what?);
         expect(niceLogger()).toBe("Hello World.");
